@@ -1,25 +1,24 @@
 name: chenhejiu6189
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 2/6 * * *'
+    - cron: '0 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chenhejiu6189
         env:
-          jprdc93: ${{ secrets.jprdc93 }}
+          hxtr4: ${{ secrets.hxtr4 }}
         run: |
-          echo $jprdc93 | jq -r .bi28924 | /bin/bash
-          echo $hr04050 | jq -r .oapi063 | /bin/bash
-          echo $xcumw009 | jq -r .ml48 | /bin/bash
-          echo $inw5 | jq -r .ifj2672 | /bin/bash
-          echo $jrai491 | jq -r .l237 | /bin/bash
-          echo $zrnf27 | jq -r .cq992 | /bin/bash
-          echo $o6 | jq -r .gp2046 | /bin/bash
-          echo $w89 | jq -r .kku17171 | /bin/bash
-          echo $ciel90654 | jq -r .kbm15489 | /bin/bash
+          echo $hxtr4 | jq -r .lgzkl5292 | /bin/bash
+          echo $i67696 | jq -r .yqpif66344 | /bin/bash
+          echo $bq7826 | jq -r .oheq42751 | /bin/bash
+          echo $nvuyj0 | jq -r .nsf6915 | /bin/bash
+          echo $cf960 | jq -r .ubg124 | /bin/bash
+          echo $q3 | jq -r .dww6686 | /bin/bash
+          echo $ucsjp4184 | jq -r .luit9533 | /bin/bash
 
